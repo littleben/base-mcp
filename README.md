@@ -16,7 +16,7 @@ Get the `appToken` and `personalBaseToken` for your base account.
 Install the MCP server package globally using npm:
 
 ```bash
-npm install -g @lark-base-open/mcp-node-server
+npm install -g @littlebena/base-mcp
 ```
 
 ### 4. MCP Server Configuration
@@ -29,7 +29,7 @@ In your MCP server configuration file, add the following:
     "base-mcp-server": {
       "command": "npx",
       "args": [
-        "@lark-base-open/mcp-node-server",
+        "@littlebena/base-mcp",
         "-a",
         "appToken of base",
         "-p",
@@ -47,11 +47,10 @@ In your MCP server configuration file, add the following:
 ## tokens
 You need get two tokens before using this mcp server.
 
-- personalBaseToken: find Base Plugin UI in your base, and access Custom Plugin->Get Authorization Code
-![Video](https://lf3-static.bytednsdoc.com/obj/eden-cn/uvpzulael_lzhi/ljhwZthlaukjlkulzlp/2025h1/MCP%20%E8%B5%84%E6%BA%90/20250526-220845.gif)
+- personalBaseToken: find Base extension UI in your base, and access Custom extension->Get Authorization Code
 
-- appToken: You can obtain the `appToken` quickly through a **Developement Tool** plugin. Here’s a simplified step-by-step process on how to do it:
-![Video](https://lf3-static.bytednsdoc.com/obj/eden-cn/uvpzulael_lzhi/ljhwZthlaukjlkulzlp/2025h1/MCP%20%E8%B5%84%E6%BA%90/20250526-221211.gif)
+- appToken: You can obtain the `appToken` quickly through a **Developement Tool** extension. Here’s a simplified step-by-step process on how to do it:
+
 
 ## Components
 
