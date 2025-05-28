@@ -16,7 +16,7 @@ Get the `appToken` and `personalBaseToken` for your base account.
 Install the MCP server package globally using npm:
 
 ```bash
-npm install -g @littlebena/base-mcp
+npm install -g @benxn/base-mcp
 ```
 
 ### 4. MCP Server Configuration
@@ -29,7 +29,7 @@ In your MCP server configuration file, add the following:
     "base-mcp-server": {
       "command": "npx",
       "args": [
-        "@littlebena/base-mcp",
+        "@benxn/base-mcp",
         "-a",
         "appToken of base",
         "-p",

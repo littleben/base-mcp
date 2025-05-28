@@ -1,7 +1,15 @@
 {
   "extends": ["@tsconfig/node-lts/tsconfig.json"],
-  "include": ["src/**/*"],
   "compilerOptions": {
-    "exactOptionalPropertyTypes": false
-  }
+    "target": "ES2022",
+    "module": "ES2022",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "declaration": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
 }
